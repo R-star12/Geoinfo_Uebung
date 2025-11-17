@@ -1,2 +1,5 @@
 # Geoinfo_Uebung
-Uebung_WebGIS
+
+Übungsdatei für den Lernblock WebGIS zur Erstellung einer Webkarte mittels Leaflet und Github
+
+coole Sache! 
