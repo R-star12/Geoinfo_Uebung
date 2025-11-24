@@ -18,10 +18,17 @@
 Tolle <b> Seminare </b>, vielfältige <b> Bildungsmöglichkeiten </b> und aktuelle <b> Hochschulsportangebote! </b>  </p>
 
 <div id="mapid" style="width: 800px; height: 500px; position: relative; left:60"></div>
+<div id="trenner" style = "height:30px"> </div>
+<div id="mapid2" style="width: 800px; height: 500px; position: relative; left:60"></div>
+
 
 <script>
 var mymap = L.map('mapid').setView([48.524242, 9.055658]).setZoom(18);
 L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png').addTo(mymap);
+
+var mymap2 = L.map('mapid2').setView([48.524242, 9.055658]).setZoom(18);
+L.tileLayer('https://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}{r}.png').addTo(mymap2);
+
 
 </script>
 
